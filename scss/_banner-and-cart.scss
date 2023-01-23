@@ -1,0 +1,111 @@
+main{
+    .banner__and--card{
+        max-width: 1440px;
+        padding-right: 100px;
+        margin: auto;
+        margin-top: 100px;
+        
+        img{
+            width: 100%;
+        }
+    }
+    .banner__and__card{
+        display: grid;
+        max-width: 1034px;
+        height: 222px;
+        margin: auto;
+        grid-template-columns: repeat(2, 447px);
+        margin-top: 72px;
+        gap: 50px 140px;
+        grid-template-rows: 1fr 1fr ;
+    }
+    .bac--cart{
+        display: flex;
+        
+        img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .bac--cart__iteam{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;
+        margin-left: 40px;
+    }
+    .bac--cart__text{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin: 10px 0 0 40px;
+        color: #6B6B6C;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    main{
+        .banner__and--card{
+            max-width: 768px;
+            padding-right: 1px;
+            margin-top: 88px;
+            
+            img{
+                width: 100%;
+            }
+        }
+        .banner__and__card{
+            
+            grid-template-columns: repeat(1, 530px);
+            gap: 48px;
+            margin-left: 39px;
+            margin-top: 48px;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            
+        }
+        .bac--cart{
+            img{
+                width: 88px;
+                height: 88px;
+            }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 375px){
+    main{
+        .banner__and--card{
+            .truck--img{
+                display: none;
+            }
+        }
+        .banner__and__card{
+            grid-template-columns: repeat(1, 337px);
+            gap: 48px;
+            margin-left: 15px;
+            margin-top: 48px;
+            
+        }
+        .bac--cart{
+            img{
+                width: 52px;
+                height: 52px;
+            }
+        }
+        .bac--cart__iteam{
+            font-size: 18px;
+            margin-left: 15px;
+        }
+        .bac--cart__text{
+            font-size: 15px;
+            width: 269px;
+            margin-top: 1px;
+            margin-left: 15px;
+        }
+    }
+}

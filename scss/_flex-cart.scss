@@ -1,0 +1,167 @@
+main{
+    .flex--cart{
+        max-width: 1440px;
+        padding: 0 100px;
+        margin: auto;
+        margin-top: 120px;
+    }
+    .flex--cart__iteam{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+    }
+    .flex--cart__text{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        max-width: 465px;
+        color: #6B6B6C;
+        margin-top: 32px;
+    }
+    .felex__carts{
+        display: flex;
+        gap: 0 30px;
+        margin-top: 57px;
+    }
+    .felex__cart{
+        width: 393px;
+        height: 439px;
+        box-shadow: 0px 4px 15px #0000001f;
+        border-radius: 10px;
+        
+        img{
+            width: 100%;
+        }
+    }
+    .felex__cart__two{
+        width: 393px;
+        height: 439px;
+        box-shadow: 0px 4px 15px #0000001f;
+        border-radius: 10px;
+        
+        img{
+            width: 100%;
+        }
+    }
+    .felex__cart__there{
+        width: 393px;
+        height: 439px;
+        box-shadow: 0px 4px 15px #0000001f;
+        border-radius: 10px;
+    
+        
+        img{
+            width: 100%;
+        }
+    }
+    .felex__cart--iteam{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        margin: 24px 0 16px 32px;
+        color: #363738;
+    }
+    .felex__cart--text{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-left: 32px;
+        width: 291px;
+        color: #6B6B6C;
+    }
+    .felex__cart--price{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 135%;
+        color: #363738;
+        margin: 32px 0 10px 32px;
+    }
+    .felex__cart--line{
+        width: 86px;
+        height: 1px;
+        background-color: yellow;
+        margin-left: 32px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    main{
+        .flex--cart{
+            padding: 0 39px;
+            margin-top: 320px;
+        }
+        .flex--cart__iteam{
+            font-size: 44px;
+        }
+        .felex__carts{
+            display:block;
+            
+            gap: 32px 0px;
+            margin-top: 40px;
+        }
+        .felex__cart__there{
+            display: none;
+        }
+        .felex__cart{
+            width: 690px;
+            height: 422px;
+            img{
+                width: 100%;
+                height: 50%;
+            }
+        }
+        .felex__cart--text{
+            width: 529px;
+        }
+        .felex__cart__two{
+            width: 690px;
+            height: 422px;
+            margin-top: 32px;
+            
+            img{
+                width: 100%;
+                height: 50%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 375px){
+    main{
+        .flex--cart{
+            padding: 0 15px;
+            margin-top: 320px;
+        }
+        .flex--cart__iteam{
+            font-size: 28px;
+        }
+        .felex__cart{
+            width: 345px;
+            height: 394px;
+            img{
+                width: 100%;
+                
+            }
+        }
+        .felex__cart--iteam{
+            font-size: 18px;
+        }
+        .felex__cart--text{
+            font-size: 15px;
+            width: 291px;
+        }
+        .felex__cart__two{
+            display: none;
+        }
+    }
+}

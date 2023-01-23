@@ -1,0 +1,108 @@
+main{
+    .trust__carts{
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
+        margin-top: 120px;
+    }
+    .trust__carts--iteam{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        margin-left: 100px;
+        color: #363738;
+    }
+    .cart--trust{
+        display: grid;
+        max-width: 1212px;
+        height: 576px;
+        margin: auto;
+        margin-top: 90px;
+        grid-template-columns: repeat(4, 317px);
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .atom__img{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .cart__trust--iteam{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        text-align: center;
+        margin-top: 32px;
+        color: #363738;
+    }
+    .cart__trust--text{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        margin-top: 14px;
+        color: #6B6B6C;
+    }
+}
+@media only screen and (max-width: 768px){
+    main{
+        .trust__carts{
+            margin-top: 88px;
+        }
+        .trust__carts--iteam{
+            font-size: 44px;
+            margin-left: 39px;
+        }
+        .cart--trust{
+            height: 576px;
+            margin-left: 60px;
+            margin-top: 64px;
+            grid-template-columns: repeat(2, 317px);
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        .cart__trust--iteam{
+            margin-top: 24px;
+        }
+    }
+}
+@media only screen and (max-width: 375px){
+    main{
+        .trust__carts{
+            margin-top: 64px;
+        }
+        .trust__carts--iteam{
+            font-size: 28px;
+            margin-left: 15px;
+        }
+        .cart--trust{
+            height: 376px;
+            margin-left:29px;
+            margin-top: 64px;
+            grid-template-columns: repeat(2, 170px);
+            grid-template-rows: 1fr 1fr;
+        }
+        .atom__img{
+            margin-left: 35px;
+        }
+        .cart__trust--iteam{
+            margin-top: 24px;
+            font-size: 18px;
+        }
+        .cart__trust--text{
+            margin-top: 12px;
+            width: 152px;
+            text-align: center;
+        }
+        .cart__trust__5,
+    .cart__trust__6,
+    .cart__trust__7,
+    .cart__trust__8 {
+        display: none;
+    }
+    }
+}

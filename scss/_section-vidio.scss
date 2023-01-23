@@ -1,0 +1,72 @@
+main{
+    .section__vidio{
+        max-width: 1240px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .section__vidio--iteam{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+        margin-left: 100px;
+    }
+    .section__vidio--text{
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        margin-top: 32px;
+        margin-left: 100px;
+        width: 848px;
+    }
+    .vidio{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    main{
+        .section__vidio{
+            margin-top: 260px;
+        }
+        .section__vidio--iteam{
+            font-size: 44px;
+            margin-left: 39px;
+            
+        }
+        .section__vidio--text{
+            font-size: 16px;
+            margin-top: 32px;
+            margin-left: 39px;
+            width: 690px;
+            margin-bottom: 40px;
+        }
+    }
+    
+    
+}
+@media only screen and (max-width: 375px){
+    main{
+        .section__vidio{
+            margin-top: 80px;
+        }
+        .section__vidio--iteam{
+            font-size: 22px;
+            margin-left: 15px;
+            
+        }
+        .section__vidio--text{
+            font-size: 15px;
+            margin-top: 32px;
+            margin-left: 18px;
+            width: 345px;
+            margin-bottom: 40px;
+        }
+    }
+    
+    
+}
